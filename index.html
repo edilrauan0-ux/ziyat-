@@ -1,1 +1,186 @@
 
+
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ZIYAT — Білім мен даму</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0b0b0b;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  padding: 25px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #302719;
+}
+
+.logo {
+  color: #d6b46a;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+nav a {
+  color: #ddd;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 14px;
+}
+
+.hero {
+  text-align: center;
+  padding: 110px 20px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero h1 span {
+  color: #d6b46a;
+}
+
+.hero p {
+  color: #aaa;
+  font-size: 18px;
+  line-height: 1.7;
+  max-width: 600px;
+  margin: auto;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 15px 30px;
+  background: #d6b46a;
+  color: #111;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.section {
+  padding: 60px 8%;
+  text-align: center;
+}
+
+.section h2 {
+  color: #d6b46a;
+  font-size: 30px;
+  margin-bottom: 35px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #171717;
+  border: 1px solid #40351f;
+  padding: 30px 20px;
+  border-radius: 12px;
+}
+
+.card h3 {
+  color: #d6b46a;
+  margin-bottom: 15px;
+}
+
+.card p {
+  color: #aaa;
+  line-height: 1.6;
+}
+
+footer {
+  border-top: 1px solid #302719;
+  padding: 30px;
+  text-align: center;
+  color: #888;
+}
+
+@media(max-width: 600px) {
+  .hero h1 {
+    font-size: 34px;
+  }
+
+  nav a {
+    margin-left: 8px;
+    font-size: 12px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">ZIYAT.</div>
+  <nav>
+    <a href="#home">Басты бет</a>
+    <a href="#courses">Бөлімдер</a>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <h1>Болашағыңды <span>біліммен</span> құр.</h1>
+  <p>
+    ZIYAT — білім алуға, дамуға және
+    жаңа мүмкіндіктерге арналған
+    заманауи онлайн платформа.
+  </p>
+  <a href="#courses" class="btn">Білім әлеміне өту</a>
+</section>
+
+<section class="section" id="courses">
+  <h2>Біздің бөлімдер</h2>
+
+  <div class="cards">
+
+    <div class="card">
+      <h3>📚 Оқу материалдары</h3>
+      <p>Пайдалы сабақтар мен конспектілер.</p>
+    </div>
+
+    <div class="card">
+      <h3>💻 IT әлемі</h3>
+      <p>Компьютерлік технологиялар мен бағдарламалау.</p>
+    </div>
+
+    <div class="card">
+      <h3>📊 Excel</h3>
+      <p>Кестелер мен формулаларды үйрену.</p>
+    </div>
+
+    <div class="card">
+      <h3>🎓 Презентациялар</h3>
+      <p>Оқуға арналған дайын үлгілер мен нұсқаулықтар.</p>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  © 2026 ZIYAT. Барлық құқықтар қорғалған.
+  <p>Білім. Даму. Мүмкіндік.</p>
+</footer>
+
+</body>
+</html>
